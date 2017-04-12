@@ -28,7 +28,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.query(By.css('h1'));
-    console.log(compiled.nativeElement.textContent);
     expect(compiled.nativeElement.textContent).toContain('Hello from Angular App with Webpack');
   }));
 })
