@@ -25,3 +25,12 @@
         }
     ]
 }
+
+
+Makes ure the versions matches
+```
+jest 20.0.4
+ts-jest 20.0.12
+vscode 1.15.1
+node 8.4
+```
